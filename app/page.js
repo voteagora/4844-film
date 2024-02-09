@@ -7,7 +7,7 @@ export default function Home() {
         <div className="uppercase font-mon mb-2 text-stone-400 text-center text-sm">
           /*– Coming Soon –*/
         </div>
-        <div className="font-serif text-4xl text-center mb-4 lg:mb-0">
+        <div className="font-serif text-stone-950 text-4xl text-center mb-4 lg:mb-0">
           The 4844 short film and NFT drop{" "}
         </div>
       </div>
