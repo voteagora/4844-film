@@ -3,11 +3,13 @@ import { Widget } from "@typeform/embed-react";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between lg:py-16 py-8 bg-stone-50">
-      <div className="uppercase font-mon mb-2 text-stone-400 text-center">
-        /*– Coming Soon –*/
-      </div>
-      <div className="font-serif text-4xl text-center mb-4 lg:mb-0">
-        The 4844 short film and NFT drop{" "}
+      <div>
+        <div className="uppercase font-mon mb-2 text-stone-400 text-center text-sm">
+          /*– Coming Soon –*/
+        </div>
+        <div className="font-serif text-4xl text-center mb-4 lg:mb-0">
+          The 4844 short film and NFT drop{" "}
+        </div>
       </div>
       <img
         src="/bg-image.png"
@@ -19,15 +21,16 @@ export default function Home() {
         alt="4844"
         className="max-w-screen-xl w-full relative lg:-top-24 lg:hidden"
       />
-      <div className="relative lg:top-[-320px] flex flex-col items-center">
-        <div className="uppercase font-mon mb-2 text-stone-400 hidden lg:block">
-          /*– Coming Soon –*/
+      <div className="relative lg:top-[-340px] flex flex-col items-center">
+        <div className="uppercase font-mono text-sm mb-2 text-stone-400 hidden lg:block max-w-sm text-center">
+          Get notified when the NFT drop is live, plus behind the scenes
+          production updates!
         </div>
-        <div className="border-l h-12 hidden lg:block"></div>
+        <div className="border-l h-8 hidden lg:block"></div>
         <div className="p-4 border rounded-full">
-          <a href="https://dn9jodq37pr.typeform.com/to/syAx53dP">
+          <a href="https://app.deform.cc/form/8a64c18f-4765-472f-b485-d085c7ba5a97/">
             <div className="py-4 px-6 bg-stone-900 shadow text-white rounded-full font-medium hover:bg-stone-800 transition-all hover:shadow-lg">
-              Notify me when the drop is live
+              Get updates
             </div>
           </a>
         </div>
