@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="border-l h-8 hidden lg:block"></div>
         <div className="p-4 border rounded-full">
-          <a href="https://app.deform.cc/form/8a64c18f-4765-472f-b485-d085c7ba5a97/">
+          <a href="https://stateful.mirror.xyz/subscribe">
             <div className="py-4 px-6 bg-stone-900 shadow text-white rounded-full font-medium hover:bg-stone-800 transition-all hover:shadow-lg">
               Get updates
             </div>
